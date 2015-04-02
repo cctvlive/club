@@ -1,0 +1,50 @@
+
+html{overflow-y:scroll;}
+body{background-color:#f9f9f9;width: 100%;margin: 0; padding: 0;}
+li{list-style-type: none;}
+#header-beta2{width:980px;margin:0 auto;}
+#header-beta2 nav{height:40px;background-color:#2b5c82;text-align: center;}
+#header-beta2 nav ul{position:relative}
+#header-beta2 nav ul.main-nav{float:left}
+#header-beta2 nav ul.sub-nav{float:right;margin:9px 27px 0 0}
+#header-beta2 nav ul.main-nav li{float:left;line-height:40px;height:40px;text-align:center;position:relative}
+#header-beta2 nav ul.main-nav li a{display:block;color:#fff;padding:0 20px;height:40px;text-decoration:none;font-size:14px;white-space:nowrap}
+#header-beta2 nav ul.main-nav li.hover a,#header-beta2 nav ul.main-nav li:hover a{background-color:#3b678f}
+#header-beta2 nav ul.main-nav li.active a{background-color:#edf3f7;color:#000}
+#header-beta2 nav ul.main-nav li.active a var{border-top-color:#000}
+#header-beta2 nav ul.main-nav li.hover dd a,#header-beta2 nav ul.main-nav li:hover dd a{background:#3b678f;color:#cacfd4}
+#header-beta2 nav ul.main-nav dl{display:none}
+#header-beta2 nav ul.main-nav dl dd a{display:block;background-color:#edf3f7}
+#header-beta2 nav ul.main-nav dl dd a:hover{background:#264663}
+#header-beta2 nav ul.main-nav li.hover dl,#header-beta2 nav ul.main-nav li:hover dl{display:block}
+#header-beta2 nav ul.main-nav li .nav-title a{display:block}
+#header-beta2 nav ul.main-nav li a span{vertical-align:top}
+#header-beta2 nav ul.main-nav li a var{vertical-align:top;width:0;height:0;overflow:hidden;display:inline-block;border:5px solid transparent;border-bottom:none;border-top-color:#fff;margin:17px 0 0 5px}
+#header-beta2 nav ul.main-nav li .nav-title a sub{display:inline-block;width:0;height:0;line-height:0;overflow:hidden;left:4px;top:2px;position:relative;border-style:solid;border-width:4px;border-color:transparent;border-top-color:#fff;vertical-align:middle}
+#header-beta2 nav ul.main-nav li.active .nav-title a sub{border-top-color:#000}
+#header-beta2 nav ul.main-nav li .sub-nav{position:absolute;left:-1px;top:40px;text-align:left;background-color:#39474e;border-style:solid;border-width:0 1px 1px;border-color:#2a5475;display:none;-webkit-box-shadow:0 1px 3px rgba(0,0,0,.1);-moz-box-shadow:0 1px 3px rgba(0,0,0,.1);box-shadow:0 1px 3px rgba(0,0,0,.1)}
+#header-beta2 nav ul.main-nav li.hover .sub-nav,#header-beta2 nav ul.main-nav li:hover .sub-nav{display:block}
+#header-beta2 nav ul.main-nav li .sub-nav a{display:block;color:#000;padding:0 28px 0 21px;border-left:0;border-bottom:0;border-top:1px solid #fff;white-space:nowrap;text-decoration:none;font-weight:400;background-color:#e1edf7}
+#header-beta2 nav ul.main-nav li.active .sub-nav a{padding-right:31px}
+#header-beta2 nav ul.main-nav li .sub-nav a:hover{background-color:#f0f8ff}
+#header-beta2 nav ul.sub-nav li{margin-left:20px;position:relative;float:right}
+#header-beta2 nav ul.sub-nav li a{color:#8fb8cc;text-decoration:none;cursor:pointer}
+#header-beta2 nav ul.sub-nav li a sup.msg-tip{position:absolute;top:-4px;right:-6px}
+.wrapRelative{width: 980px;margin: 0 auto;}
+.main{width:730px;float: left;padding: 0;}
+aside{ width: 230px; float: left; margin-left: 25px; background-color:#fbfbfb; }
+
+#page-index aside .side{min-height:500px;background-color:#f0f0f0;border:1px solid #ddd;padding:20px}
+#page-index aside .side .side-box{border-top:1px dotted #ccc;padding:10px 0;line-height:25px}
+#page-index aside .side .side-box dl dt{font-weight:700}
+#page-index aside .side .side-box a.btn-guide{display:block}
+#page-index aside .side .side-box a.btn-guide i.icon-16{margin-top:5px}
+#page-index aside .side .code-2d{height:212px;text-align:center;color:#666;position:relative}
+#page-index aside .side .code-2d .code-img{width:114px;height:114px;margin:30px auto 10px;background:url(images/code-img.bg.png) 0 0 no-repeat}
+#page-index aside .side .code-2d img{width:100px;height:100px;vertical-align:top;margin-top:7px}
+#page-index aside .side .code-2d .icon-help-use{position:absolute;top:15px;right:0;cursor:pointer}
+#page-index .weixin-guide-box{position:absolute;margin:0 auto;left:50%;top:0;margin-left:-490px;background:red;z-index:11;display:none}
+#page-index .weixin-guide{position:absolute;width:822px;height:511px;top:220px;right:10px}
+#page-index .weixin-guide img{position:relative;z-index:1}
+#page-index .weixin-guide img.img-guide-code{position:absolute;right:53px;bottom:125px;width:100px;height:100px}
+#page-index .weixin-guide .i-know{position:absolute;width:136px;height:40px;bottom:0;right:298px;background:#ccc;opacity:0;filter:alpha(opacity=0);z-index:2}
